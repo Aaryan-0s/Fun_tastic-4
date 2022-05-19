@@ -1,0 +1,138 @@
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fcontainerwhole{
+    /* border: 5px solid grey; */
+    height: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+
+}
+
+.fcontainer0{
+    margin-bottom: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: wheat
+    
+}
+
+.fcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.fcontainer1{
+    /* border: 5px solid grey; */
+    display: flex;
+    border-radius: 0 0 15px 15px;
+    /* border: 5px solid grey; */
+    width: 90vh;
+    height: 90vh;
+    padding: 13px;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+    background-color: skyblue;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+/* #corner {
+    border-radius: 15px;
+    background-color:  #FFFAF0;
+    padding: 13px;
+    height: 90vh;
+    width: 90vh;
+    text-align: center; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    
+  /* } */
+
+.fcontainer2{
+    display: flex;
+    border-radius: 0 0 15px 15px;
+    /* border: 5px solid grey; */
+    width: 90vh;
+    height: 90vh;
+    padding: 13px;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    
+}
+
+img{
+    height: 200px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profilepic{
+    /* display: flex; */
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    /* align-items: center; */
+    /* justify-content: center; */
+    top: 35%;
+    left: 78.5%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+}
+
+#file{
+    display: none;
+}
+
+#uploadBtn{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    line-height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* edit profile */
+#workarea button {
+    border: 0 !important;
+}
+
+/* h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
