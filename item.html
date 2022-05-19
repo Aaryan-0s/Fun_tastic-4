@@ -14,6 +14,23 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="item.css">
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!-- linking fontawesome -->
+    <script src="https://kit.fontawesome.com/075f22e2f4.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -80,33 +97,40 @@
 
         <div class="productDetails">
             <div class="userPosted">
-                <a href="#"><img
-                        src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
-                        alt="" class="userImage" /></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt=""
+                        class="userImage" /></a>
                 <a href="#">user_name</a>
                 <br>
                 <label for="" class="text-success">2 mins ago</label>
             </div>
 
             <div class="post-title">
-                <span><h3>Title: class 8 books</h3></span>
-                
+                <span>
+                    <h3>Title: class 8 books</h3>
+                </span>
+
             </div>
 
             <div class="post-details">
                 <div class="form-group">
                     <h5>Description</h5>
-                    <label for=""><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula porta ligula, et
-                        viverra nisl pellentesque sit amet. Nunc elementum viverra eros, in tristique libero porttitor
-                        at.
-                        Suspendisse pretium, risus vitae cursus hendrerit, leo nibh bibendum nulla, nec congue dolor
-                        orci eget
-                        est. Duis condimentum, neque ut luctus euismod, velit nunc gravida dolor, vitae tristique augue
-                        nisl
-                        pulvinar dolor. Aenean id erat tellus. Donec maximus pretium quam, in bibendum lacus faucibus
-                        ut.
-                        Suspendisse commodo nec diam sit amet fringilla. Aliquam euismod ornare ex,
-                        et scelerisque lectus varius vitae. Integer quam elit</p></label>
+                    <h6>Category: Exchange</h6>
+                    <label for="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula porta ligula, et
+                            viverra nisl pellentesque sit amet. Nunc elementum viverra eros, in tristique libero
+                            porttitor
+                            at.
+                            Suspendisse pretium, risus vitae cursus hendrerit, leo nibh bibendum nulla, nec congue dolor
+                            orci eget
+                            est. Duis condimentum, neque ut luctus euismod, velit nunc gravida dolor, vitae tristique
+                            augue
+                            nisl
+                            pulvinar dolor. Aenean id erat tellus. Donec maximus pretium quam, in bibendum lacus
+                            faucibus
+                            ut.
+                            Suspendisse commodo nec diam sit amet fringilla. Aliquam euismod ornare ex,
+                            et scelerisque lectus varius vitae. Integer quam elit</p>
+                    </label>
                     <br>
                     <br>
                     <label for="location">
@@ -114,13 +138,42 @@
                     </label>
                     <label for="" id="location"> Kathmandu </label>
                 </div>
-
-                <div class="buttonContent text-center">
-                    <button type="button" class="btn btn-primary text-uppercase">chat</button>
-                </div>
             </div>
         </div>
-        
+
+        <div class="buttonContent text-center">
+            <button type="button" class="btn btn-primary text-uppercase">chat</button>
+        </div>
+
+        <div class="comment-box">
+            <div class="userComment">
+                <h4 class="text-uppercase">Comments</h4>
+                <fieldset>
+                    <div class="userPosted">
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt=""
+                                class="userImage" /></a>
+                        <a href="#">user_name</a>
+
+                        <label for="" class="text-success">2 mins ago</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Give your comment">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary" type="button" id="dropOpt" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropOpt">
+                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                    <li><a class="dropdown-item" href="#">Update</a></li>
+                                </ul>
+                            </div>
+
+                            <button class="btn btn-primary sendBtn" type="submit"><i class="fa-solid fa-paper-plane"></i> | Send</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
     </div>
 </body>
 <script src="item.js"></script>
