@@ -27,3 +27,17 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
     captionText.innerHTML = dots[slideIndex - 1].alt;
 }
+
+// const buttons = document.querySelectorAll('.comment-display .dropdown-menu button')
+// const commentBodies = document.querySelectorAll('.comment-display .commentBody')
+
+// buttons.forEach((button, index) => {
+//     button.addEventListener('click', changeCommentedTextToInput(index))
+// })
+
+// function changeCommentedTextToInput(index){
+//     commentedText = commentBodies[index].childNodes[0]
+//     
+
+    
+// }
