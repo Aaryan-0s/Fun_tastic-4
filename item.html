@@ -150,31 +150,68 @@
                 <h4 class="text-uppercase">Comments</h4>
                 <fieldset>
                     <div class="userPosted">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Give your comment">
+                                <button class="btn btn-primary sendBtn" type="submit"><i
+                                        class="fa-solid fa-paper-plane"></i> | Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="comment-display">
+                <div class="form-group">
+                    <div>
                         <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt=""
                                 class="userImage" /></a>
                         <a href="#">user_name</a>
 
-                        <label for="" class="text-success">2 mins ago</label>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Give your comment">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary" type="button" id="dropOpt" data-toggle="dropdown"
-                                    aria-expanded="false">
-                                    <i class="fa-solid fa-ellipsis-vertical"></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropOpt">
-                                    <li><a class="dropdown-item" href="#">Delete</a></li>
-                                    <li><a class="dropdown-item" href="#">Update</a></li>
-                                </ul>
-                            </div>
-
-                            <button class="btn btn-primary sendBtn" type="submit"><i class="fa-solid fa-paper-plane"></i> | Send</button>
-                        </div>
+                        <label for="" class="text-success"> 0 mins ago</label>
                     </div>
-                </fieldset>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary" type="button" id="dropOpt" data-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropOpt">
+                            <li><a class="dropdown-item" href="#">Delete</a></li>
+                            <li><a class="dropdown-item" href="#">Edit</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <label for="" class="commentedText">Comment from user</label>
+                </div>
+            </div>
+
+            <div class="comment-display">
+                <div class="form-group">
+                    <div>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt=""
+                                class="userImage" /></a>
+                        <a href="#">user_name</a>
+
+                        <label for="" class="text-success"> 0 mins ago</label>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary" type="button" id="dropOpt" data-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropOpt">
+                            <li><a class="dropdown-item" href="#">Delete</a></li>
+                            <li><button class="dropdown-item" href="#">Edit</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="commentBody">
+                    <label for="" class="commentedText">Comment from user</label>
+                </div>
             </div>
         </div>
     </div>
+
 </body>
 <script src="item.js"></script>
 
