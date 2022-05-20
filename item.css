@@ -139,9 +139,20 @@ img {
     text-transform: capitalize;
 
 }
-.userPosted a {
+.comment-display a {
     text-decoration: none;
 }
+
+.comment-display .form-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment-display .commentedText{
+    margin-left: 30px;
+}
+
 .post-details p {
     text-align: justify;
 }
@@ -176,7 +187,8 @@ img {
 
 .comment-box {
     background-color: rgb(58, 59, 58);
-    height: 200px;
+    /* height: 500px; */
+    padding-bottom: 20px;
     
 }
 
@@ -191,19 +203,43 @@ img {
 } 
 
 fieldset {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 100px;
     padding:10px;
-    margin-bottom:  5px;
+    margin-top: 20px;
 }
 
-fieldset .form-control {
+.form-control {
     width: 70%;
 }
+.userImage{
+    margin:20px auto 20px auto;
+}
+.userPosted .form-group input{
+    display: inline;
+    margin: 20px auto 20px auto;
+}
 
-.userPosted .form-group input, .userPosted .form-group div {
+.comment-display {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+    border-radius: 14px;
+    padding: 10px 20px 20px 20px;
+}
+.comment-display .commentedText , .comment-display .form-group div{
+    color: black;
     display: inline;
 }
+.commentedText {
+    background-color: #6c757d;
+    font-weight: 300;
+    border-radius: 14px;
+    color: white !important;
+    padding: 10px;
+    line-height: 1.5;
+}
+
 
 /* .sendBtn {
 
